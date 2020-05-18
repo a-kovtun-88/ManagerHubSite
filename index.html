@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>ManagerHub</title>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles/style.css">
+	</head>
+
+	<body>
+		<header>
+			<div class = "top-panel">
+				<img src="images/logo.png" width="200" class = "logo"/>
+				<h1>Формирование коммерческого предложения</h1>
+				<button>Рассчитать</button>
+				<button>Сохранить</button>
+			</div>
+		</header>
+
+		<div class = "left-panel">
+			<label>Номер коммерческого предложения<input type = "text" class="commercial-number" value="1"><br></label>
+			<label>Дата коммерческого предложения<input type = "date" class="commercial-date"><br></label>
+			<label>Название коммерческого предложения<input type = "text" class="commercial-name"><br></label>
+			<label>Количество блок-контейнеров, шт.<input type = "text" class="bk-count"><br></label>
+			<label>Длина одного блок-контейнера, м<input type = "text" class="bk-lenght"><br></label>
+			<label>Ширина одного блок-контейнера, м<input type = "text" class="bk-width"><br></label>
+			<label>Высота одного блок-контейнера, м<input type = "text" class="bk-height"><br></label>
+		</div>
+		<div class = "right-panel">
+			<label>Площадь пола, м2<input type = "text" id="square-floor" class="square-floor" readonly><br></label>
+		</div>
+		<script src="scripts/main.js"></script>
+	</body>
+</html>
